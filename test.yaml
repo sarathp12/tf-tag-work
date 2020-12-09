@@ -1,0 +1,22 @@
+pipelineConfig:
+    serviceName: test-electrode-app
+    gitSource: ssh://github.com
+    AzTagMap:
+       tier: tier-a
+       domain: dotcom
+
+serviceEnv:
+    dev:
+        solutionID: 1865
+        nodeEnv: development
+        servers:
+        - lgppdnasv114.staples.com
+    
+    qa:
+        solutionID: 2971
+        nodeEnv: qa
+        servers:
+        - lgppqnasv117.staples.com
+        - lgppqnasv121.staples.com
+        #- lgppqnasv126.staples.com
+        #- lgppqnasv127.staples.com
