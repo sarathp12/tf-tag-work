@@ -2,8 +2,8 @@ pipelineConfig:
     serviceName: test-electrode-app
     gitSource: ssh://github.com
     AzTagMap:
-       tier: tier-a
-       domain: dotcom
+       tier: "tier-a"
+       domain: "dotcom"
 
 serviceEnv:
     dev:
